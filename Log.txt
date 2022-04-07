@@ -1,0 +1,2 @@
+Use the Paint project and understand code. 
+Make the background the music score sheet.
