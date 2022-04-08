@@ -1,4 +1,5 @@
-Use the Paint project and understand code. 
-Make the background the music score sheet.
+ANNOTATE AND CHANGE VARIABLES:
+
+- DRAW STAVES USING XML CODE!!!! and add xml code to front of draw area!
 
 This code is the same as the one on geeks for geeks. Must change up the logic!
