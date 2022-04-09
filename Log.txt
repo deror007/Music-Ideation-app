@@ -1,6 +1,6 @@
 ANNOTATE AND CHANGE VARIABLES:
 
-- DRAW STAVES USING XML CODE!!!! and add xml code to front of draw area! This needs to be placed inside mainActivity.xml
+-I HAVE NO CLUE HOW TO ADD STAVES TO DRAW AREA AS WHEN iMAGE IS SAVED THE STAVES ARE NOT SAVED. THIS MEANS THAT ONLY THE ANNOTATIONS ARE SAVED. THIS MEANS I SHOULD ADD THE STAVES AS ANNOTATION LINES. 
 But for final release mainActivity.xml and .java need to be for the entire program not just the draw area function.
 
 This code is the same as the one on geeks for geeks. Must change up the logic!
