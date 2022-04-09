@@ -1,5 +1,6 @@
 ANNOTATE AND CHANGE VARIABLES:
 
-- DRAW STAVES USING XML CODE!!!! and add xml code to front of draw area!
+- DRAW STAVES USING XML CODE!!!! and add xml code to front of draw area! This needs to be placed inside mainActivity.xml
+But for final release mainActivity.xml and .java need to be for the entire program not just the draw area function.
 
 This code is the same as the one on geeks for geeks. Must change up the logic!
