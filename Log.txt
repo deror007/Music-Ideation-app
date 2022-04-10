@@ -1,6 +1,7 @@
 ANNOTATE AND CHANGE VARIABLES:
 
--I HAVE NO CLUE HOW TO ADD STAVES TO DRAW AREA AS WHEN iMAGE IS SAVED THE STAVES ARE NOT SAVED. THIS MEANS THAT ONLY THE ANNOTATIONS ARE SAVED. THIS MEANS I SHOULD ADD THE STAVES AS ANNOTATION LINES. 
+-Managed to display staves onto music draw functionality. BUT unsure if the staves will scale to different screen sizes.
+
 But for final release mainActivity.xml and .java need to be for the entire program not just the draw area function.
 
 This code is the same as the one on geeks for geeks. Must change up the logic!
