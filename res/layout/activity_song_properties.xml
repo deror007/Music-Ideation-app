@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SongProperties">
+
+
+    <EditText
+
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Song Title:"/>
+
+    <EditText
+
+        android:id="@+id/editGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Genre title:"/>
+
+    <EditText
+
+        android:id="@+id/editBPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter BPM:"/>
+
+    <EditText
+
+        android:id="@+id/editKeySig"
+        android:layout_below="@+id/editBPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Key Signature:"/>
+
+    <TextView
+
+        android:id="@+id/textBeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="BEAT:"/>
+
+    <Button
+        android:id="@+id/btNewBeatNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Draw Notation" />
+
+
+    <TextView
+
+        android:id="@+id/textRhythm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="RHYTHM:"/>
+
+    <Button
+        android:id="@+id/btNewRhythmNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Draw Notation" />
+
+    <TextView
+
+        android:id="@+id/textMelody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="MELODY:"/>
+
+    <Button
+        android:id="@+id/btNewMelodyNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Draw Notation" />
+
+    <EditText
+
+        android:id="@+id/editLyrics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Lyrics:"/>
+
+    <EditText
+
+        android:id="@+id/editInspir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Inspirations:"/>
+
+    <EditText
+
+        android:id="@+id/editAddInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Enter Additional Information:"/>
+
+    <Button
+        android:id="@+id/btAddIdea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Add Song Idea"
+        android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</ScrollView>

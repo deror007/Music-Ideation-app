@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+h1 {
+  text-align: center;
+  font-size: 9vw;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\1F514';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: '\1F3B5';
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<!-- header -->
+<h1>USER GUIDE:</h1>
+
+<!-- user guide contents stored within list of collapsibles -->
+
+<button class="collapsible">Create A Song Folder</button>
+<div class="content">
+    <p> 1. Click "My Song Ideas" button, then click the "New Song" Button". </p>
+    <p> 2. Here you can enter your ideas song attributes. </p>
+    <p> 3. Press "Add Song Idea" when you filled all your current ideas into the song folder. </p>
+    <img src="images/creatingNewIdea.PNG" style="max-width:100%;height:auto;">
+    <p> NOTES: &#x1F393;</p>
+    <p> For a song to be created the only attributed that needs to be filled is the song title.</p>
+    <p> To access the Beat, Melody or Rhythm's Draw Notation screen, the title needs to be added first!</p>
+
+</div>
+
+<button class="collapsible">Retrieve & Update A Song Folder</button>
+<div class="content">
+    <p> 1. Click "My Song Ideas" button. If you have created a new song as explained in the above section, a button containing the song title will be generated </p>
+    <p> 2. To access that songs current music attributes, click the button. </p>
+    <img src="images/nonEmptyMusicIdeas.PNG" style="max-width:100%;height:auto;">
+    <p> 3. Now you have entered the song folder for that song, you are able to view its contents. </p>
+    <p> 4. Here you are able to view all music notes you have drawn by selecting "View Notations" button. A gallery of relevant images will be displayed for you to zoom into.
+    <img src="images/attributeGallery.PNG" style="max-width:100%;height:auto;">
+    <p> 4. If you would like to update its attribute values or add new drawing notations, just click on the appropriate input field or "Draw Notation" button. </p>
+    <p> 5. After viewing and updating the song's attributes, click the "Update Song Idea" button to confirm changes and return to the song ideas page. </p>
+    <img src="images/songPropertiesEnd.PNG" style="max-width:100%;height:auto;">
+
+</div>
+
+<button class="collapsible">Draw Music Notations</button>
+<div class="content">
+    <p> 1. Inside a music folder, click on the "Draw Notation" button to acess the page. </p>
+    <p> &#8630;   This button removes the last drawing stroke you have added to the canvas. </p>
+    <p> &#128190; This button saves the current state of the canvas to external storage </p>
+    <p> &#127912; This button allows the user to change the pen's colour. </p>
+    <p> &#128221; This button allows the user to change the pen's width via changing the slide bar. You must press the button again to remove the slide bar.</p>
+    <img src="images/drawNote.PNG" style="max-width:100%;height:auto;">
+    <p> NOTES: &#x1F393;</p>
+    <p> To draw, you can drag, tap and press your finger to act as a pen.</p>
+</div>
+
+<button class="collapsible">Delete Song Ideas</button>
+<div class="content">
+    <p> 1. Click "My Song Ideas" button. If you want to delete a song already stored in the "My Song Ideas" page, select the button with the song title. </p>
+    <p> 2. Scroll to the bottom of that page and HOLD the delete button. You will then go back to the "My Song Idea's" page. </p>
+</div>
+
+<button class="collapsible">Sound Service</button>
+<div class="content">
+    <p> 1. Whenever a song is created, updated or deleted, a "ping" sound is played. &#127928;</p>
+</div>
+
+<button class="collapsible">Notifications</button>
+<div class="content">
+    <p> Anytime you open the User Guide a nice pop up notification will appear. :)</p>
+</div>
+
+<button class="collapsible">Share Song Ideas & move to outside app</button>
+<div class="content">
+    <p> If you are creating or updating an idea, you can share the contents of the song folder.</p>
+    <p> Just click on the "share" icon on the top right, and a menu will appear!</p>
+    <img src="images/shareIdea.PNG" style="max-width:100%;height:auto;">
+    <p> Below is an example of the kind of data to be shared.</p>
+    <img src="images/sharedExample.PNG" style="max-width:100%;height:auto;">
+</div>
+
+<script>
+var bars = document.getElementsByClassName("collapsible");
+var i;
+
+//POSSIBLY PLAY SOUND WHEN COLLAPSIBLE CLICKS!
+
+for (i = 0; i < bars.length; i++) {
+  bars[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

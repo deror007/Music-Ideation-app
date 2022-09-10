@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".UpdateSongProperties">
+
+
+        <EditText
+
+            android:id="@+id/editUpdateTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Song Title:"/>
+
+        <EditText
+
+            android:id="@+id/editUpdateGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Genre title:"/>
+
+        <EditText
+
+            android:id="@+id/editUpdateBPM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter BPM:"/>
+
+        <EditText
+
+            android:id="@+id/editUpdateKeySig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Key Signature:"/>
+
+        <TextView
+
+            android:id="@+id/textUpdateBeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="BEAT:"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btNewBeatNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Draw Notation" />
+
+            <Button
+                android:id="@+id/btViewBeatNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Notation" />
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:id="@+id/textUpdateRhythm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="RHYTHM:"/>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btNewRhythmNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Draw Notation" />
+
+            <Button
+                android:id="@+id/btViewRhythmNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Notation" />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:id="@+id/textUpdateMelody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="MELODY:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btNewMelodyNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Draw Notation" />
+
+            <Button
+                android:id="@+id/btViewMelodyNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Notation" />
+
+        </LinearLayout>
+
+
+
+        <EditText
+
+            android:id="@+id/editUpdateLyrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Lyrics:"/>
+
+        <EditText
+
+            android:id="@+id/editUpdateInspir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Inspirations:"/>
+
+        <EditText
+
+            android:id="@+id/editUpdateAddInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Enter Additional Information:"/>
+
+        <Button
+            android:id="@+id/btUpdateIdea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Update Song Idea"
+            android:textAllCaps="false" />
+
+        <!--button for deleting our course-->
+        <Button
+            android:id="@+id/btDeleteSongIdea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="Delete Song"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+</ScrollView>
