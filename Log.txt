@@ -1,7 +1,0 @@
-ANNOTATE AND CHANGE VARIABLES:
-
--Managed to display staves onto music draw functionality. BUT unsure if the staves will scale to different screen sizes.
-
-But for final release mainActivity.xml and .java need to be for the entire program not just the draw area function.
-
-This code is the same as the one on geeks for geeks. Must change up the logic!
