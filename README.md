@@ -1,6 +1,6 @@
 # Music-Ideation-app
 
-This app is designed to help musicians order there thoughts for songs or compositions.
+This app is designed to help musicians organize their thoughts for making songs or compositions.
 
 Below is my app proposal that gives a general overview of what I built. 
 
